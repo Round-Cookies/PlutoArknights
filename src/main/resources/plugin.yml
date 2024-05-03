@@ -1,0 +1,18 @@
+main: me.asakura_kukii.plutoarknights.PlutoArknights
+version: 0.0.1
+api-version: 1.20
+name: PlutoArknights
+commands:
+  PlutoArknights:
+    description: Main argument for PlutoArknights
+    aliases: [pa]
+permissions:
+  plutoarknights.admin:
+    description: 'Gives access to all admin commands for PlutoArknights'
+    children:
+      plutoarknights.item: true
+      plutoarknights.file: true
+      plutoarknights.io: true
+depend: [SiegeCore]
+author:
+   Asakura_kukii
